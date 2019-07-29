@@ -1,0 +1,76 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  background: $secondary;
+  color: $text;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+
+.container {
+  margin: 0 auto;
+  width: 75%;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  display: block;
+  margin-bottom: 1em;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+//// typography
+.heading-1 {
+  color: #fff;
+  font-weight: normal;
+  font-size: 3rem;
+  letter-spacing: 5px;
+}
+
+.heading-2 {
+  color: #000;
+  font-size: 3rem;
+}
+
+
+
+/// buttons
+.btn-primary {
+  text-decoration: none;
+  color: #fff;
+  background-color: $primary;
+  padding: 1em 2em;
+  border-radius: 20px;
+  margin-top: 2em;
+}
+
+.btn-light {
+  text-decoration: none;
+  color: $primary;
+  background-color: #fff;
+
+  padding: 1em 2em;
+  border-radius: 20px;
+  margin-top: 2em;
+  margin-left: 1em;
+}
+
+$primary : #51baa4;
+$secondary : #1e2832;
+$light-grey : #eeeeee;
+$text : #777;
